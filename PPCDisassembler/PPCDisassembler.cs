@@ -179,6 +179,74 @@ namespace PPCDisassembler
                     {
                     }
                     break;
+                case 32:
+                    return "lwz " + i.Fields("D", "A", "d");
+                case 33:
+                    return "lwzu " + i.Fields("D", "A", "d");
+                case 34:
+                    return "lbz " + i.Fields("D", "A", "d");
+                case 35:
+                    return "lbzu " + i.Fields("D", "A", "d");
+                case 36:
+                    return "stw " + i.Fields("S", "A", "d");
+                case 37:
+                    return "stwu " + i.Fields("S", "A", "d");
+                case 38:
+                    return "stb " + i.Fields("S", "A", "d");
+                case 39:
+                    return "stbu " + i.Fields("S", "A", "d");
+                case 40:
+                    return "lhz " + i.Fields("D", "A", "d");
+                case 41:
+                    return "lhzu " + i.Fields("D", "A", "d");
+                case 42:
+                    return "lha " + i.Fields("D", "A", "d");
+                case 43:
+                    return "lhau " + i.Fields("D", "A", "d");
+                case 44:
+                    return "sth " + i.Fields("S", "A", "d");
+                case 45:
+                    return "sthu " + i.Fields("S", "A", "d");
+                case 46:
+                    return "lmw " + i.Fields("D", "A", "d");
+                case 47:
+                    return "stmw " + i.Fields("S", "A", "d");
+                case 48:
+                    return "lfs " + i.Fields("D", "A", "d");
+                case 49:
+                    return "lfsu " + i.Fields("D", "A", "d");
+                case 50:
+                    return "lfd " + i.Fields("D", "A", "d");
+                case 51:
+                    return "lfdu " + i.Fields("D", "A", "d");
+                case 52:
+                    return "stfs " + i.Fields("S", "A", "d");
+                case 53:
+                    return "stfsu " + i.Fields("S", "A", "d");
+                case 54:
+                    return "stfd " + i.Fields("S", "A", "d");
+                case 55:
+                    return "stfdu " + i.Fields("S", "A", "d");
+                case 58:
+                    switch (i.Fields("ASDASD"))
+                    {
+                    }
+                    break;
+                case 59:
+                    switch (i.Fields("ASDASD"))
+                    {
+                    }
+                    break;
+                case 62:
+                    switch (i.Fields("ASDASD"))
+                    {
+                    }
+                    break;
+                case 63:
+                    switch (i.Fields("ASDASD"))
+                    {
+                    }
+                    break;
                 default:
                     throw new Exception("Unknown instruction.");
             }
