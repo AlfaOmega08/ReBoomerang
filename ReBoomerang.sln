@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReBoomerang", "ReBoomerang\ReBoomerang.csproj", "{D9295F06-6F2B-410C-91CF-CF7C1C2A3A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeParser", "PeParser\PeParser.csproj", "{5E25B746-F5F0-4F0D-BF5D-5F2A0BF34AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCDisassembler", "PPCDisassembler\PPCDisassembler.csproj", "{EB7F4978-98E7-418E-BC01-F9D18C8934B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9295F06-6F2B-410C-91CF-CF7C1C2A3A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9295F06-6F2B-410C-91CF-CF7C1C2A3A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9295F06-6F2B-410C-91CF-CF7C1C2A3A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9295F06-6F2B-410C-91CF-CF7C1C2A3A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E25B746-F5F0-4F0D-BF5D-5F2A0BF34AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E25B746-F5F0-4F0D-BF5D-5F2A0BF34AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E25B746-F5F0-4F0D-BF5D-5F2A0BF34AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E25B746-F5F0-4F0D-BF5D-5F2A0BF34AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7F4978-98E7-418E-BC01-F9D18C8934B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7F4978-98E7-418E-BC01-F9D18C8934B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7F4978-98E7-418E-BC01-F9D18C8934B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7F4978-98E7-418E-BC01-F9D18C8934B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
