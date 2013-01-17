@@ -34,6 +34,7 @@ namespace ReBoomerang
             ldr.Initialize(stream);
             IDisassembler disasm = DisassemblerFactory.Create(ldr.GetArchitecture());
             disasm.Decode(0x8D06080);
+
             //Decompile(file);
         }
     }
